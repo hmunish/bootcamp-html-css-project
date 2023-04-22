@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#websiteContainer{
+    max-width: 1400px;
+    margin: auto;
+}
+
+nav{
+    width: 100%;
+    min-height: 7vh;    
+    background-color: #494949;
+}
+
+article{
+    width: 100%;
+    min-height: 93vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#vidBox{
+    width: 60%;
+    min-height: 60vh;
+    margin-left: 10%;
+}
+
+#sidebar{
+    width: 20%;
+    min-height: 93vh;
+    background-color: #494949;
+}
